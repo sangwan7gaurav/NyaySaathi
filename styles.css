@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 118vh;
+    margin: 0;
+}
+
+.container {
+    width: 375px;
+    height:540px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1px;
+    font-size: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.icons button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.chatbot-interface {
+    padding: 10px;
+    
+}
+
+/*.buttons {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+    
+}
+.but1{
+    display:flex;
+    justify-content:stretch;
+}
+*/
+
+
+.case-status {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.public-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.live-courts {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.e-filing {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tele-law {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.public-info button {
+    padding: 10px;
+    width:50%;
+    background-color: #6d6bfe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+   
+    
+
+}
+
+.live-courts button {
+    padding: 10px;
+    width:50%;
+    background-color: #fc6c6c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+    
+
+}
+.e-filing button {
+    padding: 10px;
+    width:50%;
+    background-color: #92f886;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.tele-law button {
+    padding: 10px;
+    width:50%;
+    background-color: #d27df4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.case-status button {
+    padding: 10px;
+    width:50%;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.info-box {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.query-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.query-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.query-box button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* New button for Options beside Query Box */
+#options-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Popup Styles */
+.popup {
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#accessibility-popup {
+    top: 60px;
+    right: 10px;
+}
+
+#options-popup {
+    bottom: 35px;
+    left: 50px; /* Position it to the right of the search box */
+}
+
+.popup button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #ddd;
+}
+
+/* Dark mode and contrast mode styles */
+.dark-mode {
+    filter: invert(1);
+}
+
+.contrast-mode {
+   filter: grayscale(70%);
+}

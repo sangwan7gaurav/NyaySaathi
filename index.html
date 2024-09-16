@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Nyaay Saathi Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Chatbot Interface -->
+        <div class="chatbot-interface">
+            <!-- Header -->
+            <div class="header">
+                
+                <span class="image"><img src ="court-judge-hammer-vector-logo-icon_905368-111-Photoroom_optimized.png"></span>
+                <span class="logo">न्याय SAATHI</span>
+                <span class="icons">
+                    <button id="accessibility-btn">♿️</button>
+                    <button id="language-btn">🔤</button>
+                    <button id="close-btn">X</button>
+                </span>
+            </div>
+
+            <!-- Accessibility Popup -->
+            <div id="accessibility-popup" class="popup">
+                <button id="magnify">🔍 Magnify</button>
+                <button id="contrast">◐ Contrast</button>
+                <button id="dark-mode">🌙 Dark Mode</button>
+                <button id="speech">🔊 Speech</button>
+            </div>
+
+          
+        
+            <!-- Case Status -->
+            <div class="but1">
+            <div class="public-info">
+                <a href=""><button class="case-btn">PUBLIC INFORMATION</button>
+            </div>
+            <div class="live-courts">
+                <a href="https://doj.gov.in/live-streaming-of-court-cases/"><button class="case-btn">LIVE COURTS</button></a>
+            </div>
+            </div>
+            <div class="but2">
+            <div class="e-filing">
+                <a href="https://www.incometax.gov.in/iec/foportal/"><button class="case-btn">E-FILING AND PAY</button></a>
+            </div>
+            <div class="tele-law">
+                <a href="https://www.tele-law.in"><button class="case-btn">TELE LAW SERVICES</button></a>
+            </div> 
+            </div>
+        
+        
+            <div class="case-status">
+                <button class="case-btn">CASE STATUS</button>
+            </div>
+            
+            
+
+            <!-- Information Box -->
+            <div class="info-box">
+                <p>The three new criminal laws, the "Bharatiya Nyaya Sanhita," the "Bharatiya Nagarik Suraksha Sanhita," and the "Bharatiya Sakshya Adhiniyam," have replaced the Indian Penal Code (IPC), the Code of Criminal Procedure (CrPC), and the Indian Evidence Act respectively, effective from 1 July 2024.</p>
+            </div>
+            
+
+            <!-- Query Input and Options Button -->
+            <div class="query-box">
+                <button id="options-btn">≡</button>
+                <input type="text" placeholder="Enter your query" id="query-input">
+                <button id="send-query">➤</button>
+                
+            </div>
+
+            <!-- Options Popup (beside query bar) -->
+            <div id="options-popup" class="popup">
+                <button id="help">HELP</button>
+                <button id="expert">EXPERT</button>
+                <button id="faq">FAQ</button>
+                <button id="social">SOCIAL</button>
+                <button id="downloads">DOWNLOADS</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
