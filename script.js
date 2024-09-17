@@ -17,9 +17,9 @@ document.getElementById('options-btn').addEventListener('click', function() {
 
 document.getElementById('magnify').addEventListener('click', function() {
     if (!isMagnified) {
-        document.body.style.fontSize = '1.5em';  // Increase font size
+        document.body.style.fontSize = '1.5em'; 
     } else {
-        document.body.style.fontSize = '1em';    // Reset font size
+        document.body.style.fontSize = '1em';    
     }
     isMagnified = !isMagnified;
 });
