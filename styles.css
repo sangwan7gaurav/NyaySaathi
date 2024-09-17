@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -161,7 +161,7 @@ body {
     
 }
 
-/* New button for Options beside Query Bo */
+
 #options-btn {
     background-color: #007bff;
     color: white;
@@ -171,7 +171,7 @@ body {
     cursor: pointer;
 }
 
-/* Popup Styles */
+
 .popup {
     display: none;
     background-color: white;
@@ -189,7 +189,7 @@ body {
 
 #options-popup {
     bottom: 35px;
-    left: 50px; /* Position it to the right of the search box */
+    left: 50px; 
 }
 
 .popup button {
@@ -206,7 +206,7 @@ body {
     background-color: #ddd;
 }
 
-/* Dark mode and contrast mode styles */
+
 .dark-mode {
     filter: invert(1);
 }
